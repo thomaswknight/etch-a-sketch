@@ -1,17 +1,19 @@
 
 #grid {
     display: flex;
-    gap: 10px;
+    gap: 3px;
+    width: 80%;
 }
 
 .column {
     display: flex;
-    gap: 10px;
+    gap: 3px;
     flex-direction: column;
+    width: 100px;
 }
 
-.grid-element {
-    background-color: aqua;
+.grid-item {
+    background-color: lightgrey;
     aspect-ratio: 1 / 1;
 }
 
